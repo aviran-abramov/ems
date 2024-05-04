@@ -7,5 +7,5 @@ Route::get('/', function () {
 });
 
 Route::get('/employees', function () {
-    return view('employees');
+    return view('employees/index');
 });
