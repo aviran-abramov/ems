@@ -7,6 +7,8 @@
         <title>EMS</title>
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">
+        @include('Components/header')
+
         {{ $slot }}
     </body>
 </html>
